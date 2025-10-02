@@ -1,0 +1,14 @@
+[
+  {
+    "key": "imie",
+    "value": "Piotr"
+  },
+  {
+    "key": "wiek",
+    "value": "17"
+  },
+  {
+    "key": "miasto",
+    "value": "Poznan"
+  }
+]
