@@ -1,0 +1,27 @@
+
+
+.Navbar{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1C1C1C;
+  padding: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  a{
+    text-decoration: none;
+    color: honeydew;
+    margin: 20px;
+    padding: 7px;
+    transition: box-shadow 1s ease, background-color 1s ease;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  a:hover{
+    box-shadow:dimgray 0 6px 20px;
+    background-color: dimgray;
+  }
+
+}

@@ -1,0 +1,48 @@
+.posts{
+  max-width: 1400px;
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  &Post{
+    width: 25%;
+    background-color: #F2F3F0;
+    margin: 1.5rem;
+    //padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 0.6rem;
+    display: flex;
+    flex-direction: column;
+  }
+  &Title{
+    font-size: 0.6rem;
+    padding: 0.5rem;
+    color: honeydew;
+    background-color: black;
+    height: 40%;
+  }
+  &Body{
+    padding: 0.5rem;
+    height: 45%;
+  }
+
+  &Link{
+    font-size: 0.3rem;
+    padding: 0.2rem;
+    color: honeydew;
+    background-color: black;
+    width: fit-content;
+    text-decoration: none;
+    height: 15%;
+    border-radius: 10px;
+    margin: 0.2rem;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+
+  &Link:hover{
+    background-color: darkgrey;
+  }
+
+}
